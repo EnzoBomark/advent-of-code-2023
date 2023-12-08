@@ -26,7 +26,7 @@ class Cube {
   Cube(this.count, this.color);
 }
 
-class Day02 extends GenericDay {
+class Day02 extends Day {
   Day02() : super(2);
 
   @override

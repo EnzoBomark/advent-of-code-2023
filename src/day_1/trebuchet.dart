@@ -1,6 +1,6 @@
 import '../day.dart';
 
-class Day01 extends GenericDay {
+class Day01 extends Day {
   Day01() : super(1);
 
   @override

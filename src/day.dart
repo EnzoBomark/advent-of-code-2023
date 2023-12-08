@@ -1,8 +1,8 @@
 import 'dart:io';
 import 'package:timing/timing.dart';
 
-abstract class GenericDay {
-  GenericDay(this.day) : input = InputUtil(day);
+abstract class Day {
+  Day(this.day) : input = InputUtil(day);
   InputUtil input;
   final int day;
 
