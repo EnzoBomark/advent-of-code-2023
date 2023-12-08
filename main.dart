@@ -1,6 +1,7 @@
 import 'src/day_1/trebuchet.dart';
 import 'src/day_2/cube_conundrum.dart';
 import 'src/day_3/gear_ratios.dart';
+import 'src/day_4/scratchcards.dart';
 
 void main(List<String> arguments) {
   final Stopwatch stopwatch = Stopwatch()..start();
@@ -18,6 +19,9 @@ void main(List<String> arguments) {
       case "03":
         Day03().printSolutions();
         break;
+      case "04":
+        Day04().printSolutions();
+        break;
       default:
         print("Day $day does not exist");
         break;
@@ -27,6 +31,7 @@ void main(List<String> arguments) {
     Day01().printSolutions();
     Day02().printSolutions();
     Day03().printSolutions();
+    Day04().printSolutions();
     print("Done 🎉");
   }
 

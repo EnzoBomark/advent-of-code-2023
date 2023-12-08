@@ -1,5 +1,4 @@
 import 'package:collection/collection.dart';
-
 import '../day.dart';
 
 class Symbol {
