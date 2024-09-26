@@ -1,6 +1,6 @@
 # Enzo Bomark's Advent of Code 2023 Solutions in Dart
 
-Current stars ⭐️: 4
+Current stars ⭐️: 12
 
 ### Usage:
 
